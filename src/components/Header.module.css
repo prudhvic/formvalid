@@ -1,0 +1,20 @@
+header {
+  padding: 1em;
+}
+header p {
+  font-size: 1.2rem;
+  margin-left: 1em;
+  position: relative;
+  
+}
+header p::before {
+  content: "";
+  position: absolute;
+  height: 0.3rem;
+  width: 45px;
+  background-color: blue;
+  display: inline;
+  top: 50%;
+  left:-2%;
+  transform: translate(-40px,-50%);
+}
